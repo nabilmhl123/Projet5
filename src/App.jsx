@@ -1,21 +1,17 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Navbar from './components/Navbar/Navbar'
+import Home from './components/Home/Home'
 
-const router = createBrowserRouter([
-
-  {
-    path: '/',
-    // eslint-disable-next-line react/no-unescaped-entities
-    element: <div>Accueil</div>
-  },
-  {
-    path: '/',
-    element: <div>A propos</div>
-  },
-  
-])
-
-function App() {
-  return <RouterProvider router={router}/>
+export default function App() {
+  return (
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Navbar/>} />
+      </Routes>
+      </BrowserRouter>
+      < Home/>
+    </div>
+    
+  )
 }
-
-export default App
