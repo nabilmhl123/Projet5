@@ -15,4 +15,20 @@ nav li {
   margin: 0 20px;
   list-style: none;
   text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  nav {
+    display: flex;
+  }
+  nav img {
+    width: 145px;
+    height: 46.88px;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=navbar.css.map */

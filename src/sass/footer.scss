@@ -1,0 +1,19 @@
+.pied-de-page{
+    margin-top: 50px;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    img{
+        filter: invert(1) grayscale(1) brightness(10);
+        mix-blend-mode: normal; // Vous pouvez utiliser 'normal' si vous ne souhaitez pas de mode de fusion
+        margin-top: 20px;
+        width: 100px;
+    }
+    h6{
+        font-size: 15px;
+        color: white;
+    }
+}

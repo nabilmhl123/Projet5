@@ -1,0 +1,21 @@
+body{
+	margin-left: auto; /* Centre horizontalement */
+    margin-right: auto; /* Centre horizontalement */
+    width: calc(100% - 100px); /* Ajuste la largeur pour ajouter des marges */
+    max-width: 1440px; /* Vous pouvez définir une largeur maximale si nécessaire */
+}
+
+
+
+.gallery{
+	background-color: rgb(238, 238, 238);
+    margin-top: 50px;
+    // margin-left: auto; /* Centre horizontalement */
+    // margin-right: auto; /* Centre horizontalement */
+    // width: calc(100% - 100px); /* Ajuste la largeur pour ajouter des marges */
+    // max-width: 1440px; /* Vous pouvez définir une largeur maximale si nécessaire */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	border-radius: 20px;
+}
