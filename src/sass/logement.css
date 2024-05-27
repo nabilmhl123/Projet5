@@ -1,0 +1,46 @@
+.coverimage img {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.logement-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #FF6060;
+}
+
+.logement-title {
+  margin: 0;
+  padding: 0;
+}
+
+.logement-title h2 {
+  font-size: 30px;
+}
+
+.host-info {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.host-name {
+  margin-right: 10px; /* Espace entre le nom et l'image */
+  text-align: right;
+}
+
+.host-name p {
+  margin: 0;
+}
+
+.host-info img {
+  width: 40%; /* Ajustez la taille selon vos besoins */
+  height: auto;
+  border-radius: 50%; /* Optionnel : pour rendre l'image ronde */
+  margin-top: 10px;
+}/*# sourceMappingURL=logement.css.map */
