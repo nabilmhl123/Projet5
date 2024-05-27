@@ -1,0 +1,39 @@
+.collapse-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .collapse {
+    flex: 1;
+    margin-bottom: 50px;
+  }
+  
+  .collapse-button {
+    background-color: #FF6060;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Each button takes the full width of its container */
+  }
+  
+  .collapse-content {
+    background-color: rgb(249, 249, 249);
+    color: black;
+    padding: 10px;
+    display: none;
+    // width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .collapse-content.open {
+    display: block;
+  }
+
+  

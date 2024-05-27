@@ -1,0 +1,13 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel-arrow {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #FF6060;
+    margin: 0 10px;
+}

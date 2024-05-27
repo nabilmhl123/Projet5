@@ -1,3 +1,17 @@
+@charset "UTF-8";
+/* Reset des marges et des padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style spécifique pour le header */
+header {
+  padding: 20px; /* Ajuste selon tes besoins */
+  margin: 0; /* Ajuste selon tes besoins */
+  /* Ajoute d'autres styles spécifiques au header si nécessaire */
+}
+
 .coverimage img {
   margin-top: 20px;
   width: 100%;
@@ -14,11 +28,6 @@
   color: #FF6060;
 }
 
-.logement-title {
-  margin: 0;
-  padding: 0;
-}
-
 .logement-title h2 {
   font-size: 30px;
 }
@@ -30,17 +39,55 @@
 }
 
 .host-name {
-  margin-right: 10px; /* Espace entre le nom et l'image */
   text-align: right;
+  margin-right: 10px;
 }
 
 .host-name p {
-  margin: 0;
+  /* Pas de marges */
 }
 
 .host-info img {
-  width: 40%; /* Ajustez la taille selon vos besoins */
-  height: auto;
+  width: 40px; /* Ajustez la taille selon vos besoins */
+  height: 40px;
   border-radius: 50%; /* Optionnel : pour rendre l'image ronde */
-  margin-top: 10px;
+}
+
+.location {
+  margin-bottom: 5px;
+}
+
+.notation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aligne verticalement les étoiles et les boutons */
+}
+
+.bouton {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* Espace entre les boutons */
+}
+
+.bouton button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF6060;
+  color: white;
+  cursor: pointer;
+}
+
+.rating {
+  color: #FF6060;
+  display: flex;
+  align-items: center; /* Aligne verticalement les étoiles */
+}
+
+.star-filled {
+  color: #FF6060; /* Couleur des étoiles remplies */
+}
+
+.star-empty {
+  color: #E0E0E0; /* Couleur des étoiles vides */
 }/*# sourceMappingURL=logement.css.map */
