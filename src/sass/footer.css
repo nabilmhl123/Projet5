@@ -14,7 +14,7 @@
 .footer img {
   filter: invert(1) grayscale(1) brightness(10);
   mix-blend-mode: normal;
-  margin-top: 20px;
+  margin-top: 50px;
   width: 100px;
 }
 .footer h6 {

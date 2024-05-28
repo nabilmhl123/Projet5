@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+.gallery, .banniere, nav, .coverimage, .logement-info, .location, .notation, .collapse-buttons, .banner2, .apropos {
   margin-left: auto; /* Centre horizontalement */
   margin-right: auto; /* Centre horizontalement */
   width: calc(100% - 100px); /* Ajuste la largeur pour ajouter des marges */

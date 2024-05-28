@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Style pour l'ensemble de la page */
+.error-container {
+    min-height: 100vh; /* Utilisation de min-height pour s'assurer que le container prend toute la hauteur même si son contenu est plus court */
+    padding: 20px; /* Ajout de padding pour espacer les éléments du bord de la page */
+  }
+  
+  /* Style pour le contenu d'erreur */
+  .error-content {
+    text-align: center;
+    margin: auto; /* Centre le contenu verticalement */
+  }
+  
+  /* Style pour l'élément h1 dans le contenu d'erreur */
+  .error-content h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6060;
+  }
+
+  .error-content h2{
+    margin-top: 50px;
+    color: #FF6060;
+  }
+  
+  /* Style pour l'élément h4 dans le contenu d'erreur */
+  .error-content h4 {
+    margin-top: 100px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Ajoutez d'autres styles selon vos besoins */

@@ -1,7 +1,7 @@
-import React from 'react';
 import Navbar from "./../Navbar/Navbar";
 import Collapse from './../Collapse/Collapse';
 import data from './../../../collapse.json'; // Assurez-vous que le chemin vers votre fichier JSON est correct
+import Footer from '../Footer/Footer';
 
 export default function Apropos() {
   return (
@@ -16,6 +16,9 @@ export default function Apropos() {
         {data.map((item, index) => (
           <Collapse key={index} title={item.titre} content={item.texte} />
         ))}
+      </div>
+      <div className='pieddepage'>
+        <Footer/>
       </div>
     </>
   );

@@ -1,10 +1,10 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import logements from "./../../../logements.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Collapse from "../Collapse/Collapse";
+import Footer from "../Footer/Footer";
 
 const renderRatingStars = (rating) => {
   const stars = [];
@@ -82,6 +82,7 @@ const Logement = () => {
           } 
         />
       </div>
+      <Footer/>
     </div>
   );
 };

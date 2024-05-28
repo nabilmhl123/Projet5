@@ -1,6 +1,50 @@
-.banner2 img{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner2 img {
     width: 100%;
-        height: 223px;
-        object-fit: cover;
-        border-radius: 25px;
+    height: 223px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments horizontalement */
+    width: 100%; /* Assurez-vous que le conteneur prend toute la largeur */
+}
+
+.apropos .collapse {
+    width: 80%; /* Ajustez cette valeur selon vos besoins */
+    margin-bottom: 20px; /* Espace entre les sections collapse */
+}
+
+.apropos .collapse-button {
+    background-color: #FF6060;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Chaque bouton prend toute la largeur de son conteneur */
+}
+
+.apropos .collapse-content {
+    background-color: rgb(249, 249, 249);
+    color: black;
+    padding: 10px;
+    display: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.apropos .collapse-content.open {
+    display: block;
 }
