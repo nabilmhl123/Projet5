@@ -4,12 +4,12 @@
 	padding: 0;
 }
 
-.gallery, .banniere, nav, .coverimage, .logement-info, .location, .notation, .collapse-buttons, .banner2, .apropos{
-	margin-left: auto; /* Centre horizontalement */
-    margin-right: auto; /* Centre horizontalement */
-    width: calc(100% - 100px); /* Ajuste la largeur pour ajouter des marges */
-    max-width: 1440px; /* Vous pouvez définir une largeur maximale si nécessaire */
-}
+// .gallery, .banniere, nav, .coverimage, .logement-info, .location, .notation, .collapse-buttons, .banner2, .apropos{
+// 	margin-left: auto; /* Centre horizontalement */
+//     margin-right: auto; /* Centre horizontalement */
+//     width: calc(100% - 100px); /* Ajuste la largeur pour ajouter des marges */
+//     max-width: 1440px; /* Vous pouvez définir une largeur maximale si nécessaire */
+// }
 
 
 
@@ -26,3 +26,45 @@
 	border-radius: 20px;
 }
 
+@media screen and (min-width: 800px) {
+    .gallery, .banniere, nav, .coverimage, .logement-info, .location, .notation, .collapse-buttons, .banner2, .apropos{
+        margin-left: auto; /* Centre horizontalement */
+        margin-right: auto; /* Centre horizontalement */
+        width: calc(100% - 100px); /* Ajuste la largeur pour ajouter des marges */
+        max-width: 1440px; /* Vous pouvez définir une largeur maximale si nécessaire */
+    }
+}
+
+
+@media screen and (max-width:769px){
+    
+    .gallery, .banniere, nav, .coverimage, .logement-info, .location, .notation, .collapse-buttons, .banner2, .apropos{
+        margin-left: auto; /* Centre horizontalement */
+        margin-right: auto; /* Centre horizontalement */
+        width: calc(100% - 40px); /* Ajuste la largeur pour ajouter des marges */
+        max-width: 1440px; /* Vous pouvez définir une largeur maximale si nécessaire */
+    }
+
+    .text-container h1{
+        font-size: 50px;
+    }
+
+    nav img {
+        width: 100px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin: 0 10px; /* Ajoute un espacement vertical entre les éléments de la liste */
+    }
+
+    .gallery{
+        margin-top: 20px;
+    }
+    
+}

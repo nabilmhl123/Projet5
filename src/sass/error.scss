@@ -30,6 +30,31 @@
     margin-top: 100px;
     text-decoration: none;
     cursor: pointer;
+    margin-bottom: 50px;
   }
   
   /* Ajoutez d'autres styles selon vos besoins */
+
+  @media (min-width:300px) and (max-width: 769px){
+
+    
+      header nav img {
+        width: 100px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin: 0 10px; /* Ajoute un espacement vertical entre les éléments de la liste */
+    }
+
+    .custom-footer{
+      margin-top: 80px;
+    }
+
+    }
+

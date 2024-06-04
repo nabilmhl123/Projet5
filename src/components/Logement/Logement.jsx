@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Collapse from "../Collapse/Collapse";
 import Footer from "../Footer/Footer";
+import Carousel from "../Carousel/Carousel";
 
 const renderRatingStars = (rating) => {
   const stars = [];
@@ -42,8 +43,11 @@ const Logement = () => {
   return (
     <div>
       <Navbar />
-      <div className="coverimage">
+      {/* <div className="coverimage">
         {cover && <img src={cover} alt="cover de la page" />}
+      </div> */}
+      <div className="carousel-container">
+        <Carousel images={logement.pictures} />
       </div>
       <div className="logement-info">
         <div className="logement-title">

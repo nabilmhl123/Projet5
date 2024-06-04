@@ -48,3 +48,14 @@
 .apropos .collapse-content.open {
     display: block;
 }
+
+@media (min-width:300px) and (max-width: 769px){
+
+    .pieddepage .footer{
+        height: 230px;
+    }
+
+    .pieddepage .footer img{
+        margin-top: 70px;
+    }
+}

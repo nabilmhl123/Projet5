@@ -89,3 +89,24 @@ header {
 .star-empty {
     color: #E0E0E0; /* Couleur des étoiles vides */
 }
+
+@media (min-width:300px) and (max-width: 769px){
+    .host-info{
+        position: absolute;
+        bottom: 115px;
+        left: 250px;
+    }
+
+    .notation .bouton{
+        margin-bottom: 50px;
+    }
+
+    .notation .rating{
+        position: absolute;
+        bottom: 120px;
+    }
+
+    .collapse-buttons{
+        flex-direction: column;
+    }
+}
