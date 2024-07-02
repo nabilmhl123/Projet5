@@ -49,6 +49,7 @@ const Logement = () => {
       <div className="carousel-container">
         <Carousel images={logement.pictures} />
       </div>
+      <div className="grid-container">
       <div className="logement-info">
         <div className="logement-title">
           <h2>{logement.title}</h2>
@@ -83,8 +84,10 @@ const Logement = () => {
                 <p key={index}>{equipment}</p>
               ))}
             </div>
+            
           } 
         />
+        </div>
       </div>
       <Footer/>
     </div>

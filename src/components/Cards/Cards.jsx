@@ -15,7 +15,7 @@ const Cards = ({ logements }) => {
 Cards.propTypes = {
   logements: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
+      id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
       cover: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired
     })

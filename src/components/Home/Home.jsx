@@ -1,8 +1,9 @@
-import Banner from "../Banner/Banner";
-import Navbar from "../Navbar/Navbar";
-import Cards from "../Cards/Cards";
-import logements from "../../../logements.json";
-import Footer from "../Footer/Footer";
+import React from 'react';
+import Banner from '../Banner/Banner';
+import Navbar from '../Navbar/Navbar';
+import Cards from '../Cards/Cards';
+import logements from '../../../logements.json';
+import Footer from '../Footer/Footer';
 
 export default function Home() {
   return (
@@ -11,9 +12,7 @@ export default function Home() {
         <div className="en-tete">
           <Navbar />
         </div>
-        <div className="grande-banniere">
-          <Banner />
-        </div>
+          <Banner bannerNumber={1} />
         <div className="gallery">
           <Cards logements={logements} />
         </div>

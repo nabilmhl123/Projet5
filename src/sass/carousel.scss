@@ -1,8 +1,8 @@
 .carousel {
-    margin-left: auto;
-    margin-right: auto;
-    width: calc(100% - 100px);
-    max-width: 1440px;
+    // margin-left: auto;
+    // margin-right: auto;
+    // width: calc(100% - 50px);
+    // max-width: 1440px;
     position: relative; /* Assure que les boutons sont positionnés par rapport au carousel */
 }
 
@@ -45,4 +45,10 @@
     border-radius: 10px;
     font-size: 16px;
     z-index: 1;
+}
+
+@media screen and (max-width:769px){
+    .carousel-counter{
+        
+    }
 }
