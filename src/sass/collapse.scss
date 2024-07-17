@@ -1,41 +1,49 @@
 .collapse-buttons {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  
-  .collapse {
-    flex: 1;
-    margin-bottom: 20px;
-  }
-  
-  .collapse-button {
-    background-color: #FF6060;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 14px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%; /* Each button takes the full width of its container */
-    font-family: 'Montserrat';
-    font-weight: 500;
-  }
-  
-  .collapse-content {
-    background-color: rgb(249, 249, 249);
-    color: black;
-    padding: 10px;
-    display: none;
-    // width: 100%;
-    border-radius: 0 0 10px 10px;
-  }
-  
-  .collapse-content.open {
-    display: block;
-  }
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
 
-  
+.collapse {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.collapse-button {
+  background-color: #FF6060;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Each button takes the full width of its container */
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.collapse-content {
+  background-color: rgb(249, 249, 249);
+  color: black;
+  padding: 0 10px;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+  transition: height 0.3s ease;
+}
+
+.collapse-content-inner {
+  padding: 10px 0;
+}
+
+.collapse-icon {
+  transition: transform 0.3s ease;
+}
+
+.collapse-icon.open {
+  transform: rotate(-180deg);
+}
